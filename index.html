@@ -19,7 +19,7 @@
         <!-- title -->
         <h1>Mails</h1>
         <!-- mails list -->
-        <ul class="list-unstyled"  v-if="mailsList.length >= 10">
+        <ul class="list-unstyled"  >
             <li v-for="mail in mailsList">{{mail}}</li>
         </ul>
         <button @click="getMails">Carica</button>
