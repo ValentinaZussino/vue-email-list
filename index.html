@@ -14,8 +14,14 @@
 </head>
 
 <body>
-    <h1>Mails</h1>
-
-
-
+    <!-- create app -->
+    <div id="app">
+        <!-- title -->
+        <h1>Mails</h1>
+        <!-- mails list -->
+        <ul>
+            <li v-for="mail in mailsList">{{mail}}</li>
+        </ul>
+        <button @click="getMails">Carica</button>
+    </div>
 </body>
