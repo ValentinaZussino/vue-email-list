@@ -18,7 +18,7 @@ const app = createApp({
                     this.mailsList.push(elem.data.response)
                 })  
             }
-            
+            this.mailsList = [];
         }
     }
 
